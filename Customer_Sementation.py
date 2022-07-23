@@ -108,7 +108,6 @@ pyoff.iplot(fig)
 
 tx_merge = pd.merge(tx_user, tx_user_6m, on='CustomerID', how='left')
 tx_merge = tx_merge.fillna(0)
-
 tx_graph = tx_merge.query("m6_Revenue < 30000")
 
 plot_data = [
