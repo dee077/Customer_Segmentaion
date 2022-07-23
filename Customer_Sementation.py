@@ -1,7 +1,7 @@
 #import libraries
 from datetime import datetime, timedelta,date
 import pandas as pd
-%matplotlib inline
+matplotlib inline
 from sklearn.metrics import classification_report,confusion_matrix
 import matplotlib.pyplot as plt
 import numpy as np
